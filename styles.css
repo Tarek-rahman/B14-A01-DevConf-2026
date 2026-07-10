@@ -55,9 +55,12 @@ body {
   height: 90vh;
   color: white;
   text-align: center;
-  padding: 100px 250px 20px;
+  padding: 80px 250px 50px;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .hero-section::after {
   content: '';
@@ -74,9 +77,6 @@ body {
 }
 .hero-section div > h1 > span {
   font-style: italic;
-}
-.hero-section div {
-  margin-bottom: 200px;
 }
 /* hero section style end */
 
