@@ -5,10 +5,343 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment-1</title>
+  <!-- link google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <h1>Hello</h1>
+  <!-- header start -->
+  <header class="header">
+    <!-- header logo -->
+    <div class="logo">
+      <img src="./assets/logo.png" alt="header-logo">
+    </div>
+
+    <!-- navber -->
+    <nav class="navber">
+      <ul>
+        <li class="list"><a href="">Speakers</a></li>
+        <li class="list"><a href="">Schedule</a></li>
+        <li class="list"><a href="">Tracks</a></li>
+        <li class="list"><a href="">Venue</a></li>
+        <li class="list"><a href="">Blog</a></li>
+      </ul>
+    </nav>
+
+    <!-- hreader button -->
+    <div>
+      <button class="common-btn">Register Now</button>
+    </div>
+
+  </header>
+  <!-- header end -->
+
+  <!-- main section start -->
+  <main>
+
+    <!-- hero section start -->
+    <section class="hero-section">
+      <div>
+        <h1>Code.<span>Connect.</span>Create</h1>
+        <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of
+          cutting-edge
+          talks, hands-on workshops,<br> and meaningful connections.</p>
+      </div>
+      <button class="common-btn">Register Now</button>
+    </section>
+    <!-- hero section end -->
+
+    <!-- speakers section start -->
+    <section class="speakers-section">
+      <h2 class="speakers-title">Meet the Speakers</h2>
+      <!-- speakers-cards -->
+      <div class="speakers-cards">
+        <!-- speakers-card -->
+        <div class="speakers-card">
+          <img src="./assets/andrej.png" alt="speaker-img">
+          <div>
+            <p>AI / ML</p>
+            <h2>Andrej Karpathy</h2>
+            <p>Pretraining team, Anthropic</p>
+          </div>
+        </div>
+
+        <!-- speakers-card -->
+        <div class="speakers-card">
+          <img src="./assets/demis.png" alt="speaker-img">
+          <div>
+            <p>Cloud & DevOps</p>
+            <h2>Demis Hassabis</h2>
+            <p>Co-Founder and CEO, Google DeepMind</p>
+          </div>
+        </div>
+        <!-- speakers-card -->
+        <div class="speakers-card">
+          <img src="./assets/gary.png" alt="speaker-img">
+          <div>
+            <p>Frontend</p>
+            <h2>Gary Marcus</h2>
+            <p>Staff Engineer, Vercel</p>
+          </div>
+        </div>
+        <!-- speakers-card -->
+        <div class="speakers-card">
+          <img src="./assets/mustafa.png" alt="speaker-img">
+          <div>
+            <p>Security</p>
+            <h2>Mustafa Suleyman</h2>
+            <p>CEO of Microsoft AI</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- speakers section end -->
+
+    <!-- spots section start -->
+    <section class="spots-section">
+      <h2 class="spots-title">Secure Your Spot</h2>
+      <p class="spots-pera">Early-bird pricing ends August 15, 2026.</p>
+      <!-- spots cards -->
+      <div class="spots-cards">
+        <!-- spots card -->
+        <div class="spots-card">
+          <div>
+            <p>STANDARD</p>
+            <h3>$399</h3>
+            <p>per person</p>
+          </div>
+          <!-- horizental line -->
+          <hr>
+          <ul class="spots-list">
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+          <button class="blue-btn">Get Standard</button>
+        </div>
+
+        <!-- spots card -->
+        <div class="spots-card active-card">
+          <div>
+            <p>PRO</p>
+            <h3>$749</h3>
+            <p>per person</p>
+          </div>
+          <!-- horizental line -->
+          <hr>
+          <ul class="spots-list">
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentorship (30 min)</li>
+          </ul>
+          <button class="active-btn">Get Pro</button>
+        </div>
+
+        <!-- spots card -->
+        <div class="spots-card">
+          <div>
+            <p>TEAM</p>
+            <h3>$5,999</h3>
+            <p>up to 10 people</p>
+          </div>
+          <!-- horizental line -->
+          <hr>
+          <ul class="spots-list">
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
+          <button>Contact Us</button>
+        </div>
+      </div>
+    </section>
+    <!-- spots section end -->
+
+    <!-- feature section start -->
+    <section class="feature-section">
+      <div class="feature-title-desc">
+        <h2 class="">Why Attend DevConf 2026?</h2>
+        <p class="">
+          Three days of learning, networking, and building the future <br />
+          with the global developer community.
+        </p>
+      </div>
+      <!-- feature cards -->
+      <div class="feature-cards">
+        <!-- feature-card -->
+        <div class="feature-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+
+          <h4>Learn from Industry Leaders</h4>
+
+          <p>
+            Gain insights from world-class engineers,
+            founders, and AI researchers shaping the future.
+          </p>
+        </div>
+        <!-- feature-card -->
+        <div class="feature-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-users"></i>
+          </div>
+
+          <h4>Network with 4,000+ Developers</h4>
+
+          <p>
+            Meet developers, startup founders,
+            recruiters and technology enthusiasts.
+          </p>
+        </div>
+        <!-- feature-card -->
+        <div class="feature-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+
+          <h4>Hands-on Workshops</h4>
+
+          <p>
+            Participate in practical coding workshops
+            and live technical sessions.
+          </p>
+        </div>
+        <!-- feature-card -->
+        <div class="feature-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <h4>Career Opportunities</h4>
+
+          <p>
+            Connect with top companies,
+            hiring managers and recruiters.
+          </p>
+        </div>
+        <!-- feature-card -->
+        <div class="feature-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-gift"></i>
+          </div>
+
+          <h4>Exclusive Perks</h4>
+
+          <p>
+            Receive conference swag,
+            exclusive goodies and premium resources.
+          </p>
+        </div>
+        <!-- feature-card -->
+        <div class="feature-card">
+          <div class="icon-box">
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+
+          <h4>Unforgettable Experience</h4>
+
+          <p>
+            Enjoy networking events,
+            coffee breaks and memorable moments.
+          </p>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="feature-stats-box">
+
+        <div class="feature-stat">
+          <i class="fa-solid fa-users"></i>
+          <h2>4,000+</h2>
+          <span>Attendees</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="feature-stat">
+          <i class="fa-solid fa-microphone"></i>
+          <h2>40+</h2>
+          <span>Speakers</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="feature-stat">
+          <i class="fa-solid fa-calendar-days"></i>
+          <h2>70+</h2>
+          <span>Sessions</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="feature-stat">
+          <i class="fa-solid fa-code"></i>
+          <h2>20+</h2>
+          <span>Workshops</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="feature-stat">
+          <i class="fa-solid fa-clock"></i>
+          <h2>3</h2>
+          <span>Days</span>
+        </div>
+
+      </div>
+    </section>
+    <!-- attend section end -->
+
+  </main>
+  <!-- main section end -->
+
+  <!-- footer section start -->
+  <footer class="footer-section">
+    <div class="footer-top">
+      <div>
+        <img src="./assets/footer-logo.png" alt="footer-logo">
+      </div>
+      <div class="socialmedia-icon">
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+    </div>
+    <hr>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 DevConf. All rights reserved.</p>
+      <div class="footer-bottom-right">
+        <a href="">Privacy Policy</a>
+        <a href="">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
 </body>
 
 </html>
